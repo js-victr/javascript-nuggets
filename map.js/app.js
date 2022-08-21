@@ -26,7 +26,7 @@ const getAges = (person) => person.age * 2;
 const ages = people.map(getAges);
 console.log(ages);
 
-const newPeople = people.maps((item) => {
+const newPeople = people.map((item) => {
     return {
         firstName:item.name.toUpperCase(),
         oldAge:item.age + 20
